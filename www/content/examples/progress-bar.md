@@ -28,7 +28,7 @@ This div is then replaced with a new div containing status and a progress bar th
     hx-target="this"
     hx-swap="innerHTML">
     <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-labelledby="pblabel">
-      <div id="pb" class="progress-bar" style="width:0%">
+      <div id="pb" class="progress-bar" style="width:0%"></div>
     </div>
   </div>
 </div>
@@ -53,7 +53,7 @@ with a restart button added to the UI (we are using the [`class-tools`](@/extens
     hx-target="this"
     hx-swap="innerHTML">
       <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="122" aria-labelledby="pblabel">
-        <div id="pb" class="progress-bar" style="width:122%">
+        <div id="pb" class="progress-bar" style="width:122%"></div>
       </div>
     </div>
   </div>
